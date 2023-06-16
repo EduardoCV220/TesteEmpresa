@@ -76,7 +76,7 @@ function criarMenu($guias_menu)
     </li>
     <?php
 
-    $guias_menu = ['cadastro' => array('cliente', 'fornecedor', 'usuário', 'produtos', 'perfil de acesso'), 'relatorio' => array('cliente', 'faturamento', 'produtos'), 'zzzz' => array('sadkaskda')];
+    $guias_menu = ['cadastro' => array('cliente', 'fornecedor', 'usuário', 'produtos', 'perfil de acesso'), 'relatorio' => array('cliente', 'faturamento', 'produtos')];
 
     $menu = criarMenu($guias_menu);
 
